@@ -1,0 +1,4 @@
+c:\users\trilok\documents\visual studio 2015\Projects\cfd\BackgroundAudio\BackgroundAudio\BackgroundAudio.csproj;x86
+c:\users\trilok\documents\visual studio 2015\Projects\cfd\BackgroundAudio\MyPlaylistManager\MyPlaylistManager.csproj;x86
+c:\users\trilok\documents\visual studio 2015\Projects\cfd\BackgroundAudio\MyPlaylistManager\MyPlaylistManager.csproj;x86
+c:\users\trilok\documents\visual studio 2015\Projects\cfd\BackgroundAudio\SampleBackgroundAudioTask\SampleBackgroundAudioTask.csproj;x86

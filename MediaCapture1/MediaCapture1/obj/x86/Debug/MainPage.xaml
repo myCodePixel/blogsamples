@@ -1,0 +1,22 @@
+﻿<Page
+    x:Class="MediaCapture1.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MediaCapture1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+        <ComboBox x:ConnectionId='1' x:Name="AudioFormat" ItemsSource="{Binding}" HorizontalAlignment="Left" Margin="245,213,0,0" VerticalAlignment="Top" Width="250" Height="46" PlaceholderText="Select Audio Format"                                                />
+        <TextBlock x:ConnectionId='2' x:Name="textBlock" HorizontalAlignment="Left" Margin="245,268,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="28" Width="211"/>
+        <AppBarButton x:ConnectionId='3' x:Name="appBarButton" HorizontalAlignment="Left" Icon="Accept" Label="Record" Margin="620,342,0,0" VerticalAlignment="Top"                     />
+        <AppBarButton x:ConnectionId='4' x:Name="appBarButton1" HorizontalAlignment="Left" Icon="Accept" Label="Stop" Margin="772,342,0,0" VerticalAlignment="Top"                   />
+        <AppBarButton x:ConnectionId='5' x:Name="appBarButton2" HorizontalAlignment="Left" Icon="Accept" Label="save" Margin="936,356,0,0" VerticalAlignment="Top"                   />
+        <TextBlock x:ConnectionId='6' x:Name="Duration" Text="{Binding}" HorizontalAlignment="Left" Margin="671,219,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="98" Width="354"/>
+        <ComboBox x:ConnectionId='7' x:Name="AudioQuality" ItemsSource="{Binding}" HorizontalAlignment="Left" Margin="245,301,0,0" VerticalAlignment="Top" Width="250" Height="50" PlaceholderText="Select AudioQuality"                                                 />
+
+    </Grid>
+</Page>
+

@@ -1,0 +1,1 @@
+C:\Users\Trilok\documents\visual studio 2015\Projects\cfd\VideoCaptureUWP\VideoCaptureUWP\VideoCaptureUWP.csproj;x86

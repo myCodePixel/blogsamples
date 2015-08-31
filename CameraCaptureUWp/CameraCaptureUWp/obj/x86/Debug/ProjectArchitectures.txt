@@ -1,0 +1,1 @@
+c:\users\trilok\documents\visual studio 2015\Projects\cfd\CameraCaptureUWp\CameraCaptureUWp\CameraCaptureUWp.csproj;x86
